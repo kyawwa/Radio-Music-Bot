@@ -25,7 +25,7 @@ import sys
 U=USERNAME
 CHAT=Config.CHAT
 msg=Config.msg
-HOME_TEXT = "<b>Hello, [{}](tg://user?id={})\n\nI am 24×7 Non Stop Radio/Music Player.\n\nHits /help for more details...</b>"
+HOME_TEXT = "<b>Hello, [{}](tg://user?id={})\n\nI am DK BOTZ 24×7 Non Stop Radio/Music Player.\n\nHits /help for more details...</b>"
 HELP = """
 **User Commands:**
 ▷/play **[song name]/[yt link]**: Reply to an audio file.
@@ -57,11 +57,11 @@ HELP = """
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/LushaiMusic/VCMusicPlayer'),
+        InlineKeyboardButton("🔥 OWNER 🔥", url='https://t.me/DKBOTZHELP'),
     ],
     [
-        InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-        InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
+        InlineKeyboardButton('👥 Group', url='https://t.me/DK_BOTZ'),
+        InlineKeyboardButton('Channel 📢', url='https://t.me/DKBOTZ'),
     ],
     [
         InlineKeyboardButton('🆘 Help & Commands 🆘', callback_data='help'),
@@ -78,14 +78,14 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/LushaiMusic/VCMusicPlayer'),
+            InlineKeyboardButton("🔥 Source Code 🔥", url='https://t.me/DKBOTZHELP'),
         ],
         [
-            InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-            InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
+            InlineKeyboardButton('👥 Group', url='https://t.me/DK_BOTZ'),
+            InlineKeyboardButton('Channel 📢', url='https://t.me/DKBOTZ'),
         ],
         [
-            InlineKeyboardButton('🔰 How to Deploy 🔰', url='https://t.me/c/1481808444/131'),
+            InlineKeyboardButton('🔰 OWNER 🔰', url='https://t.me/DKBOTZHELP'),
         
         ]
     ]

@@ -1,6 +1,6 @@
 {
   "name": "VC Music Player",
-  "description": "An Telegram Bot Maded By Zaute to Play Nonstop Radio/Music in Telegram Voice Chats",
+  "description": "An Telegram Bot Maded By dk to Play Nonstop Radio/Music in Telegram Voice Chats",
   "repository": "https://github.com/deepukumarpuri/VCMusicPlayer",
   "logo": "https://telegra.ph/file/a247cefef0c9fd6308ee2.jpg",
   "keywords": [
@@ -37,7 +37,7 @@
     },
     "CHAT": {
       "description": "ID of Channel or Group where the Bot plays Music. Ex: -1001173263645",
-      "required": true
+      "required": false
     },
     "LOG_GROUP": {
       "description": "ID of the group to send playlist If CHAT is a Group, if channel thenleave blank. Ex: -1001173263645",
